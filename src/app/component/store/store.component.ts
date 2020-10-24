@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, SkipSelf, Self } from '@angular/core';
 import { AlcoholService } from 'src/app/service/alcohol/alcohol.service';
 
 @Component({
@@ -9,7 +9,7 @@ import { AlcoholService } from 'src/app/service/alcohol/alcohol.service';
 })
 export class StoreComponent implements OnInit {
 
-  constructor() { }
+  constructor(private alcohol: AlcoholService) { }
 
   ngOnInit(): void {
   }
