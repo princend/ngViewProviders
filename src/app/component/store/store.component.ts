@@ -5,11 +5,11 @@ import { AlcoholService } from 'src/app/service/alcohol/alcohol.service';
   selector: 'app-store',
   templateUrl: './store.component.html',
   styleUrls: ['./store.component.scss'],
-  providers: [AlcoholService]
+  providers: [{ provide: AlcoholService, useValue: { item: '🍺' } }] //啤酒
 })
 export class StoreComponent implements OnInit {
 
-  constructor(private alcohol: AlcoholService) { }
+  constructor(public alcohol: AlcoholService) { }
 
   ngOnInit(): void {
   }
