@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngViewProviders"
+    }
+  },
+  "defaultProject": "ngViewProviders",
+  "cli": {
+    "analytics": "10be6cf9-e536-49f8-8f17-170e62d6b07d"
+  }
 }
