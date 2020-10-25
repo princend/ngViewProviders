@@ -9,6 +9,9 @@ import { HostComponent } from './component/host/host.component';
 import { SelfNoDataComponent } from './component/self-no-data/self-no-data.component';
 import { SkipSelfComponent } from './component/skip-self/skip-self.component';
 import { SelfComponent } from './component/self/self.component';
+import { SetComponent } from './component/set/set.component';
+import { BentoBoxComponent } from './component/bento-box/bento-box.component';
+
 
 
 @NgModule({
@@ -18,7 +21,9 @@ import { SelfComponent } from './component/self/self.component';
     HostComponent,
     SelfNoDataComponent,
     SkipSelfComponent,
-    SelfComponent
+    SelfComponent,
+    SetComponent,
+    BentoBoxComponent
   ],
   imports: [
     BrowserModule,

@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class AlcoholService {
-  item = '🍷';
+export class FoodService {
+  item = '🥩'
+  constructor() { }
 }

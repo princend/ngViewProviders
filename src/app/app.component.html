@@ -1,13 +1,25 @@
 <h1>ViewProviders 與 Providers差異</h1>
 <div>AppComponent:</div>
 <div>你選到的酒是:</div>
-<div>{{item}}</div>
+<div>{{alcohol.item}}</div>
+<div></div>
+<div>您選到的食物是:</div>
+<div>{{food.item}}</div>
 
 
 <app-store></app-store>
 
+<h1>修飾符實作</h1>
 
 <app-self></app-self>
 <app-self-no-data></app-self-no-data>
 <app-skip-self></app-skip-self>
 <app-host></app-host>
+
+
+
+<h1>差異實作</h1>
+
+<app-bento-box>
+  <app-set></app-set>
+</app-bento-box>
